@@ -15,6 +15,7 @@ a {
 li {
     text-decoration: none;
     list-style: none;
+    
 }
 
 h1 {
@@ -26,7 +27,13 @@ p{
     color: black;
 }
 
-
+img.log{
+    width: 100px;
+    margin-left: 10px;
+    position: relative;
+    right: 300px;
+    
+}
 
 #indexVh1 {
     margin-bottom: 15px;
@@ -79,6 +86,11 @@ nav {
     text-align: center;
     padding: 14px 16px;
     font-size: 25px;
+}
+
+ul.ulnav{
+    top: 10px;
+    left: 100px;
 }
 
 .ulnav a:hover {
@@ -231,5 +243,22 @@ iframe {
 
 .cont {
     color: chocolate;
+}
+
+@media screen and (max-width: 1500px) {
+    
+    .logo1 {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .topnav {
+
+        background-color: #000;
+
+    }
 }
 
